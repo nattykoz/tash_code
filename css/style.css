@@ -1,0 +1,271 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+	-moz-box-sizing: border-box; /* Firexfox */
+	-webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+	box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	color: #000;
+	font-size: 12px;
+	line-height: 1.4;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+.top {
+	background-color: #033048;
+	color: #606161;
+	font-size: 16px;
+	padding: 15px;
+}
+
+.top h1 {
+	color: white;
+	font-size: 24px;
+	font-weight: 800;
+	padding-left: 20px;
+}
+
+.top ul {
+	text-align: right;
+	color:#f9e42e;
+}
+
+.top ul li {
+	display: inline;
+	margin: 15px;
+}
+
+.articles {
+	color: #606161;
+	width: 700px;
+	float: left;
+	display: inline-block;
+}
+
+.articles h2 {
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.articles p {
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.articles h3 {
+	font-size: 24px;
+	font-weight: 600;
+	text-align: right;
+}
+
+.sidebar {
+	width: 240px;
+	float: right;
+	display: inline-block;
+}
+
+.sidebar h2 {
+	font-size: 32px;
+	font-weight: 800;
+}
+
+.sidebar ul {
+	font-size: 24px;
+	font-weight: 200;
+}
+
+.yellowbar {
+	display: block;
+}
+
+
+
+
+
+/******************************************
+/* OLD CODE // NOT VALID
+/*******************************************/
+
+
+
+.grey {
+	background-color: #C6C6C6;
+	font-size: 16px;
+	padding: 15px;
+	text-align: center;
+	font-style: italic;
+}
+
+.grey em:first-of-type {
+    text-decoration: line-through;
+    color: #A9A9A9;
+}
+
+.grey em:nth-of-type(2) {
+	text-decoration: underline;
+	text-decoration-color: yellow;
+}
+
+.main {
+	width: 100%;
+    margin: auto;
+    background: url(../images/coworking.jpg) no-repeat center;
+    background-size: cover;
+    padding: 25px;
+}
+
+.main div {
+	width: 35%;
+    margin: auto;
+    background-color: white;
+    border-width: 2px;
+    border-color: ;
+    opacity: .5; 
+    margin-left: 60%;
+    padding: 30px;
+}
+
+.main h1 {
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.main p {
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.main 
+
+
+
+
+/* Center the container */
+.container {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+  border-style: solid;
+  border-width; 1px;
+}
+
+header {
+
+}
+
+.intro {
+	background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	text-align: center;
+}
+
+.intro h1 {
+	font-size: 24px;
+	font-weight: 800;
+	text-align: left;
+    padding: 10px;
+}
+
+.intro h2 {
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+}
+
+/*cannot for the life of me wrap my mind around what we talked about in class in making the below relative adn the intro image absolut*/
+.cta {
+	background-color: #f9e42e;
+    color: navy;
+    text-decoration: none;
+    padding: 20px 100px;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.benefits {
+	height: 100px;
+	color: #606161;
+	
+}
+.testimonial {
+	font-size: 18px
+	font-weight: 200;
+	font-style: italic;
+	color: #ffffff;
+	text-align: center;
+
+}
+.name {
+	font-size: 
+	font-weight: 600;
+	color: #ffffff;
+	text-align: center;
+
+}
+.yellowbar{
+	background-color: yellow;
+	padding: 20px;
+	text-align: center;
+
+}
+
+.button2{
+	font-size: 12px;
+	font-weight: 800;
+	border-radius: 5px;
+	color: #ffffff;
+	background-color: #033048;
+	text-decoration: none;
+    padding: 20px 100px;
+    display: inline-block;
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
